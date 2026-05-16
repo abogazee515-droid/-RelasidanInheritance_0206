@@ -19,6 +19,11 @@ public:
     }
 };
 
+class pelajar : public orang {
+public:
+    string sekolah;
+};
+
 int main() {
 
     return 0;
