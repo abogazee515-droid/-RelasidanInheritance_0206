@@ -3,8 +3,11 @@
 using namespace std;
 
 class dokter;
-class pasien {
 
+class pasien {
+public:
+    string nama;
+    vector<dokter*> daftar_dokter;
 };
 
 class dokter {
