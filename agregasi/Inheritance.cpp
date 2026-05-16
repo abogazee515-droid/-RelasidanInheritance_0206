@@ -38,7 +38,7 @@ public:
             " dari sekolah " + sekolah + "\n";
     }
 };
-
+ 
 int main() {
 
     pelajar siswa1("andi laksono", "SMAN 1 Bantul");
