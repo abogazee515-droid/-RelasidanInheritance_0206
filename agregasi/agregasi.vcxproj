@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="agregasi.cpp" />
+    <ClCompile Include="Asosiasi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ibu.h" />
