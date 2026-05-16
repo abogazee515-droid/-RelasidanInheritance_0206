@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="agregasi.cpp" />
     <ClCompile Include="Asosiasi.cpp" />
+    <ClCompile Include="composition.cpp" />
     <ClCompile Include="Inheritance.cpp" />
   </ItemGroup>
   <ItemGroup>

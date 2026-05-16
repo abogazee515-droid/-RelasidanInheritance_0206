@@ -24,6 +24,9 @@
     <ClCompile Include="Inheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="composition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ibu.h">
