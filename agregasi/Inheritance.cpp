@@ -28,6 +28,15 @@ public:
 
         cout << "pelajar dibuat\n";
     }
+
+    ~pelajar() {
+        cout << "pelajar dihapus\n";
+    }
+
+    string perkenalan() {
+        return "Hallo, nama saya " + nama +
+            " dari sekolah " + sekolah;
+    }
 };
 
 int main() {
