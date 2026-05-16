@@ -42,9 +42,21 @@ void pasien::tambahDokter(dokter* pDokter) {
     daftar_dokter.push_back(pDokter);
 }
 
+void pasien::cetakDokter() {
+    for (auto a : daftar_dokter) {
+        cout << a->nama << endl;
+    }
+}
+
 void dokter::tambahPasien(pasien* pPasien) {
     daftar_pasien.push_back(pPasien);
     pPasien->tambahDokter(this);
+}
+
+void dokter::cetakPasien() {
+    for (auto a : daftar_pasien) {
+        cout << a->nama << endl;
+    }
 }
 
 int main() {
